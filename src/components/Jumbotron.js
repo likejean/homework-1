@@ -18,7 +18,7 @@ const JumbotronPage = props => {
                             <MDBCol className="py-5">
                                 <PopoverPage />
                                 <Description data={data}/>
-                                <MDBCardTitle className="h1-responsive pt-3 m-5 font-bold">SEATTLE, WASHINGTON</MDBCardTitle>
+                                <MDBCardTitle className="h1-responsive pt-3 m-5 font-bold">SEATTLE</MDBCardTitle>
                             </MDBCol>
                         </MDBCol>
                     </MDBJumbotron>
