@@ -1,5 +1,7 @@
 import React , { useState } from 'react';
 import '../App.css';
+import logo from '../images/pasv.png';
+
 import {
     MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBCollapse, MDBFormInline,
     MDBDropdown, MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem
@@ -16,7 +18,7 @@ function Header() {
         <Router>
             <MDBNavbar color="indigo" dark expand="md">
                 <MDBNavbarBrand>
-                    <img style={{width: 100}} src='/assets/PASV.png' width="100px" alt='Smiley Face' />
+                    <img style={{width: 100}} src={logo} width="100px" alt='Smiley Face' />
                 </MDBNavbarBrand>
                 <MDBNavbarToggler onClick={toggleCollapse} />
                 <MDBCollapse isOpen={open} navbar>
