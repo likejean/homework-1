@@ -12,8 +12,8 @@ const JumbotronPage = props => {
                     <MDBJumbotron style={{ padding: 0 }}>
                         <MDBCol className="text-white text-center py-5 px-4 my-5"
                             style={{
-                            backgroundImage: `url(https://media.gettyimages.com/vectors/seattle-skyline-sketch-vector-id177344456?s=2048x2048)`
-                        }}
+                                backgroundImage: `url(https://media.gettyimages.com/vectors/seattle-skyline-sketch-vector-id177344456?s=2048x2048)`
+                            }}
                         >
                             <MDBCol className="py-5">
                                 <PopoverPage />

@@ -1,3 +1,6 @@
+*****LINK to Instrustions How to Deploy React App on Git Hub Pages*****
+https://github.com/gitname/react-gh-pages/blob/master/README.md
+
 STEP 1: Create React App locally
 STEP 2: Create a NEW repository on GitHub.com
 STET 3: Leave the GitHub 'code' page for now...

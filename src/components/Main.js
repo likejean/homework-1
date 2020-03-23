@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
+import Contact from "./Contact";
 
 import JumbotronPage from "./Jumbotron";
 import '../App.css';
@@ -22,6 +23,7 @@ function Main() {
     return (
         <React.Fragment>
             <JumbotronPage data={data}/>
+            <Contact/>
         </React.Fragment>
     );
 }
