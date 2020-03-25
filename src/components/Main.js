@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import Contact from "./Contact";
-
 import JumbotronPage from "./Jumbotron";
 import '../App.css';
 
+///////////////////////////////////////////////////////////////////
 function Main() {
     const [data, setData] = useState({});
     useEffect(() => {

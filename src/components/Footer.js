@@ -1,7 +1,7 @@
 import React from 'react';
 import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
 import { SocialIcon } from 'react-social-icons';
-
+///////////////////////////////////////////////////////////////////
 function Header() {
     return (
         <MDBFooter color="blue" className="font-small pt-4 mt-4">

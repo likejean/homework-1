@@ -1,15 +1,12 @@
 import React , { useState } from 'react';
 import '../App.css';
 import logo from '../images/pasv.png';
-
-
-
 import {
     MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBCollapse, MDBFormInline,
     MDBDropdown, MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem
 } from "mdbreact";
 import { BrowserRouter as Router } from 'react-router-dom';
-
+///////////////////////////////////////////////////////////
 function Header() {
     const [open, setOpen] = useState(false);
     const toggleCollapse = () => {

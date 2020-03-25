@@ -3,6 +3,7 @@ import { MDBJumbotron, MDBContainer, MDBRow, MDBCol, MDBCardTitle } from "mdbrea
 import PopoverPage from "./Popover";
 import Description from "./Description";
 
+///////////////////////////////////////////////////////////
 const JumbotronPage = props => {
     const { data } = props;
     return (
